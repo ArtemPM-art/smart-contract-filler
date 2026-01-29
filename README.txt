@@ -28,3 +28,6 @@
 2. Установите зависимости:
    ```bash
    pip install -r requirements.txt
+
+## Для компиляции в .exe (с иконкой):
+pyinstaller --noconsole --onefile --collect-all num2words --icon="icon.ico" --name "SmartFill" "main.py"
